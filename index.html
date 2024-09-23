@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- FONTAWSOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sevillana&display=swap"
+        rel="stylesheet">
+    <!-- Animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.png" alt="no image">
+            <!-- Links -->
+            <ul>
+                <li class="list-items"><a href="#home" class="list">Home</a></li>
+                <li class="list-items"><a href="#about" class="list">About</a></li>
+                <li class="list-items"><a href="#skill" class="list">Skills</a></li>
+                <li class="list-items"><a href="#contact" class="list">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <!-- Home content -->
+            <div class="home-content">
+                <h1 class="animate__animated animate__wobble" id="username">I'm Soorya <span id="lname">Suresh</span>
+                </h1>
+                <p id="user-details">This is my official portfolio website to describe all
+                    <br>
+                    Details and work experience in Web Development
+                </p>
+                <a id="download" href="./images/RESUMENEW.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <!-- Home image -->
+            <div class="home-img">
+                <!-- Shape -->
+                <img id="shape" class="group1" src="./images/shape.png" alt="no image">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/human.png" alt="no image">
+
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 id="mainHead">About Me</h2>
+                <span id="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div class="aboutImage">
+                    <img  data-aos="fade-right" class="img1" src="./images/aboutme.jpeg" alt="no image">
+                </div>
+                <div class="aboutContent">
+                    <p>I am a BTech graduate in Computer Science with a strong foundation in Python, HTML, CSS, PHP,
+                        Java, and C. Currently, I am enhancing my skills through a MERN Full Stack Development course at
+                        Luminar Technolab, where I am gaining hands-on experience with Web Components, Angular, Node.js,
+                        Express.js, MongoDB, and React.js.
+
+                        My key strengths lie in problem solving and adaptability, allowing me to tackle complex
+                        challenges and thrive in dynamic environments. I am passionate about technology and dedicated to
+                        continuous learning, always seeking to apply my skills to innovative projects and contribute to
+                        effective solutions.</p>
+                    <div class="informations">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Soorya Suresh</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>7736051904</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>sooryals2002@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Skill -->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 id="mainHead">Skills</h2>
+                <span id="subHead">My Skills</span>
+            </div>
+            <div class="SkillContent">
+                <div class="progressbars">
+                    <div class="bars">
+                        <h3 class="mainHead">HTML</h3>
+                        <span class="barPercentage">89%</span>
+                        <div class="baseBar"></div>
+                        <div  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar htmlBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="mainHead">CSS</h3>
+                        <span class="barPercentage">82%</span>
+                        <div class="baseBar"></div>
+                        <div  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar cssBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="mainHead">JS</h3>
+                        <span class="barPercentage">71%</span>
+                        <div class="baseBar"></div>
+                        <div  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar jsBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="mainHead">REACT</h3>
+                        <span class="barPercentage">89%</span>
+                        <div class="baseBar"></div>
+                        <div  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar reactBar"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skillImage">
+                    <img data-aos="fade-left" width="100%" class="myskill" src="./images/skill.jpeg" alt="no image">
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 id="mainHead">Contact</h2>
+                <span id="subHead">My Contact</span>
+            </div>
+            <div class="iconCollection">
+                <!-- Linkedin -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/soorya-l-008272276/" target="_blank"><i
+                            class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <!-- Github -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/soorya-l-008272276/" target="_blank"><i
+                            class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- Twitter -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/soorya-l-008272276/" target="_blank"><i
+                            class="fa-brands fa-twitter brands"></i></i></a>
+                </div>
+                <!-- Facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/soorya-l-008272276/" target="_blank"><i
+                            class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- Whatsapp -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/soorya-l-008272276/" target="_blank"><i
+                            class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/soorya-l-008272276/" target="_blank"><i
+                            class="fa-brands fa-instagram brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p id="copyright">&copy; My Portfolio Website -September 19, All RightsReserved to &reg; Soorya Suresh </p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+
+        </footer>
+    </div>
+</body>
+<!-- aos script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
